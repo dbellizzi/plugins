@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dbellizzi",
+  "description": "Dom Bellizzi's personal plugins for Claude Code and Codex",
+  "owner": { "name": "Dom Bellizzi" },
+  "plugins": [
+    {
+      "name": "agentlog",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dbellizzi/agentlog.git",
+        "path": "plugins/agentlog"
+      },
+      "description": "Shared message board so agents working in the same repo (and its worktrees) can claim work, coordinate edits, and ask each other to pause",
+      "category": "development"
+    }
+  ]
+}
