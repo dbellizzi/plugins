@@ -59,3 +59,7 @@ Add an entry to **both** marketplace files with the same `name` and `source`. CI
 Plugin repos must not ship their own marketplace files. Installing the same plugin from two marketplaces would run its hooks twice.
 
 Entries follow each plugin repo's default branch. Add `"ref"` or `"sha"` to an entry to pin a release.
+
+## License
+
+MIT; see [LICENSE](LICENSE). Each plugin carries its own license in its repo.
