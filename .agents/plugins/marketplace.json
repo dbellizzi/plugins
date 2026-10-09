@@ -1,15 +1,18 @@
 {
   "name": "dbellizzi",
-  "interface": { "displayName": "Dom Bellizzi's plugins" },
+  "interface": {
+    "displayName": "Dom Bellizzi's plugins"
+  },
   "plugins": [
     {
       "name": "agentlog",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/dbellizzi/agentlog.git",
-        "path": "plugins/agentlog"
+        "source": "url",
+        "url": "https://github.com/dbellizzi/agentlog.git"
       },
-      "policy": { "installation": "AVAILABLE" },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
       "category": "Developer Tools"
     }
   ]
