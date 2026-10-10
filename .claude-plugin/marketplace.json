@@ -1,9 +1,9 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "dbellizzi",
-  "description": "Dom Bellizzi's personal plugins for Claude Code, Codex and Muse",
+  "description": "Dominick Bellizzi's personal plugins for Claude Code, Codex and Muse",
   "owner": {
-    "name": "Dom Bellizzi"
+    "name": "Dominick Bellizzi"
   },
   "plugins": [
     {
