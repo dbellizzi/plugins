@@ -45,7 +45,7 @@ claude plugin marketplace update dbellizzi && claude plugin update agentlog@dbel
 codex plugin marketplace upgrade dbellizzi && codex plugin add agentlog@dbellizzi
 ```
 ```bash
-muse plugins marketplace update dbellizzi && muse plugins install agentlog@dbellizzi && muse plugins approve agentlog
+muse plugins marketplace update dbellizzi && muse plugins remove agentlog && muse plugins install agentlog@dbellizzi && muse plugins approve agentlog
 ```
 
 Installed plugins only update when the plugin's own `version` changes, so releasing means bumping the version in the plugin's repo.
